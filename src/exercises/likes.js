@@ -12,3 +12,7 @@ export function likes(names) {
       return `${names[0]}, ${names[1]} and ${names.length - 2} others like this`;
   }
 }
+
+/**
+ * Toma un array de string names y devuelve una frase que indica cuántas personas han dado "like"
+ */

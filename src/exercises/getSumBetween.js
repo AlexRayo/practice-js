@@ -8,3 +8,9 @@ export function getSumBetween(a, b)
    }
    return sum;
 }
+
+/*
+Toma la suma entre dos números dados por parámetros
+por ejemplo: getSumBetween(-1,3) devuelve 6 porque son los números -1, 0, 1, 2, 3, 4
+
+*/
