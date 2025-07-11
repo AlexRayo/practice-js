@@ -6,6 +6,7 @@ import { setupCounter } from './counter.js'
 import { sumTwoSmallestNumbers } from './exercises/sumTwoSmallestNumbers.js';
 import { likes } from './exercises/likes.js';
 import { getSumBetween } from './exercises/getSumBetween.js';
+import { isPangram } from './exercises/isPangram.js';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -30,5 +31,6 @@ setupCounter(document.querySelector('#counter'))
 console.log('sumTwoSmallestNumbers:' , sumTwoSmallestNumbers([1, 1, 2, 3]))
 console.log('likes:', likes(['John', 'Jane', 'Jack']))
 console.log('getSumBetween:', getSumBetween(-1, 2))
+console.log('isPangram:', isPangram('The quick brown fox jumps over the lazy dog'))
 
 
