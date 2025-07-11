@@ -1,4 +1,4 @@
-function isPangram(string){
+export function isPangram(string){
   return new Set(string.toLowerCase().match(/[a-z]/g)).size === 26
   //la clase Set regresa un objeto que contiene los elementos sin repetir
   //match utiliza expresiones regulares para buscar coincidencias; en este caso, coincidencias de letras desde la "a" hasta la "z", 
