@@ -8,6 +8,7 @@ import { likes } from './exercises/likes.js';
 import { getSumBetween } from './exercises/getSumBetween.js';
 import { isPangram } from './exercises/isPangram.js';
 import { spinWords } from './exercises/spinWords.js';
+import { findOdd } from './exercises/findOdd.js';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -34,5 +35,6 @@ console.log('likes:', likes(['John', 'Jane', 'Jack']))
 console.log('getSumBetween:', getSumBetween(-1, 2))
 console.log('isPangram:', isPangram('The quick brown fox jumps over the lazy dog'))
 console.log('spinWords:', spinWords('He is the Hollow Knight'))
+console.log('findOdd:', findOdd([0,1,0]))//1
 
 
