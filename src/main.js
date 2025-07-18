@@ -10,6 +10,7 @@ import { isPangram } from './exercises/isPangram.js';
 import { spinWords } from './exercises/spinWords.js';
 import { findOdd } from './exercises/findOdd.js';
 import { twoSum } from './exercises/twoSum.js';
+import { pairInArray } from './exercises/pairInArray.js';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -38,5 +39,6 @@ console.log('isPangram:', isPangram('The quick brown fox jumps over the lazy dog
 console.log('spinWords:', spinWords('He is the Hollow Knight'))
 console.log('findOdd:', findOdd([0,1,0]))//1
 console.log('twoSum:', twoSum([1, 2, 3], 4))//[0, 2] or [2, 0]
+console.log('pairInArray:', pairInArray('abc'))//['ab', 'c_']
 
 
