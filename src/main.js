@@ -12,6 +12,7 @@ import { findOdd } from './exercises/findOdd.js';
 import { twoSum } from './exercises/twoSum.js';
 import { pairInArray } from './exercises/pairInArray.js';
 import { humanReadableTime } from './exercises/humanReadableTime.js';
+import { countRepeated } from './exercises/countRepeated.js';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -42,5 +43,6 @@ console.log('findOdd:', findOdd([0,1,0]))//1
 console.log('twoSum:', twoSum([1, 2, 3], 4))//[0, 2] or [2, 0]
 console.log('pairInArray:', pairInArray('abc'))//['ab', 'c_']
 console.log('humanReadableTime:', humanReadableTime(71465))//19:51:05
+console.log('countRepeated:', countRepeated('aba'))//{'a': 2, 'b': 1}
 
 
