@@ -14,6 +14,7 @@ import { pairInArray } from './exercises/pairInArray.js';
 import { humanReadableTime } from './exercises/humanReadableTime.js';
 import { countRepeated } from './exercises/countRepeated.js';
 import { domainName } from './exercises/domainName.js';
+import { sumBigStringNumbers } from './exercises/sumBigStringNumbers.js';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -46,4 +47,5 @@ console.log('pairInArray:', pairInArray('abc'))//['ab', 'c_']
 console.log('humanReadableTime:', humanReadableTime(71465))//19:51:05
 console.log('countRepeated:', countRepeated('aba'))//{'a': 2, 'b': 1}
 console.log('domainName:', domainName('http://github.com/carbonfive/raygun'))//github
+console.log('sumBigStringNumbers:', sumBigStringNumbers('712569312664357328695151392','8100824045303269669937'))//712577413488402631964821329
 
