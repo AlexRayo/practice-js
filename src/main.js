@@ -16,6 +16,7 @@ import { countRepeated } from './exercises/countRepeated.js';
 import { domainName } from './exercises/domainName.js';
 import { sumBigStringNumbers } from './exercises/sumBigStringNumbers.js';
 import { alphanumeric } from './exercises/alphanumeric.js';
+import { formatDuration } from './exercises/formatDuration.js';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -50,4 +51,5 @@ console.log('countRepeated:', countRepeated('aba'))//{'a': 2, 'b': 1}
 console.log('domainName:', domainName('http://github.com/carbonfive/raygun'))//github
 console.log('sumBigStringNumbers:', sumBigStringNumbers('712569312664357328695151392','8100824045303269669937'))//712577413488402631964821329
 console.log('alphanumeric:', alphanumeric('abc123'))//true
+console.log('formatDuration:', formatDuration(62))//1 minute and 2 seconds
 
