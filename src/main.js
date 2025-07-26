@@ -18,6 +18,7 @@ import { sumBigStringNumbers } from './exercises/sumBigStringNumbers.js';
 import { alphanumeric } from './exercises/alphanumeric.js';
 import { formatDuration } from './exercises/formatDuration.js';
 import { incrementString } from './exercises/incrementString.js';
+import  { sumPairs } from './exercises/sumPairs.js';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -54,4 +55,5 @@ console.log('sumBigStringNumbers:', sumBigStringNumbers('71256931266435732869515
 console.log('alphanumeric:', alphanumeric('abc123'))//true
 console.log('formatDuration:', formatDuration(62))//1 minute and 2 seconds
 console.log('incrementString:', incrementString('fo91obar91'))//fo91obar92
+console.log('sumPairs:',sumPairs([10, 5, 2, 3, 7, 5], 10))//[3, 7]
 
