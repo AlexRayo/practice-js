@@ -17,6 +17,7 @@ import { domainName } from './exercises/domainName.js';
 import { sumBigStringNumbers } from './exercises/sumBigStringNumbers.js';
 import { alphanumeric } from './exercises/alphanumeric.js';
 import { formatDuration } from './exercises/formatDuration.js';
+import { incrementString } from './exercises/incrementString.js';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -52,4 +53,5 @@ console.log('domainName:', domainName('http://github.com/carbonfive/raygun'))//g
 console.log('sumBigStringNumbers:', sumBigStringNumbers('712569312664357328695151392','8100824045303269669937'))//712577413488402631964821329
 console.log('alphanumeric:', alphanumeric('abc123'))//true
 console.log('formatDuration:', formatDuration(62))//1 minute and 2 seconds
+console.log('incrementString:', incrementString('fo91obar91'))//fo91obar92
 
